@@ -1,6 +1,6 @@
 import React, {useState, Fragment} from 'react';
 import {Link} from 'react-router-dom';
-import Button from '../Button/Button'
+import { Button } from '../Button/Button'
 import './Navbar.css';
 
 const Navbar = () => {
@@ -17,7 +17,7 @@ const Navbar = () => {
 
     //A function that removes the button and displays it depending on the screen size
     const showButton = () => {
-        if (window.innerWidth <<= 960) {
+        if (window.innerWidth <= 960) {
             setButton(false);
         } else {
             setButton(true);
@@ -33,12 +33,13 @@ const Navbar = () => {
                 <div className="navbar-container">
                     <Link to='/' className='navbar-logo'>
                         by karl
+                        <i className='fab fa-typo3' />
                     </Link>
                     <div className="menu-icon" onClick={clickHandler}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
                     </div>
 
-                    <ul className={click ? 'nav-menu-active' : 'nav-menu'}>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className="nav-item">
                             <Link to='/' className='nav-links' onClick={closeMenuOnMobile}>
                                 Home
