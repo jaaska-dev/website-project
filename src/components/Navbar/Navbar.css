@@ -29,7 +29,8 @@
     align-items: center;
 }
 
-.fa-typo3 {
+.fa-redhat {
+    color: red;
     margin-left: 0.5rem;
     font-size: 1.8rem;
 }

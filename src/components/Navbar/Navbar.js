@@ -1,4 +1,4 @@
-import React, {useState, Fragment} from 'react';
+import React, {useState, useEffect, Fragment} from 'react';
 import {Link} from 'react-router-dom';
 import { Button } from '../Button/Button'
 import './Navbar.css';
@@ -24,6 +24,10 @@ const Navbar = () => {
         }
     };
 
+    useEffect(() => {
+        showButton();
+    }, []);
+
     //Whenever the window resizes, showButton() is invoked
     window.addEventListener('resize', showButton);
 
@@ -31,9 +35,9 @@ const Navbar = () => {
         <Fragment>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <Link to='/' className='navbar-logo'>
+                    <Link to='/' className='navbar-logo' onClick={closeMenuOnMobile}>
                         by karl
-                        <i className='fab fa-typo3' />
+                        <i className='fab fa-redhat' />
                     </Link>
                     <div className="menu-icon" onClick={clickHandler}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}/>
