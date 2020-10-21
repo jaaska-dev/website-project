@@ -10,7 +10,6 @@
 
 - [Description](#description)
 - [How To Use](#how-to-use)
-- [License](#license)
 - [Author Info](#author-info)
 
 ---
@@ -26,7 +25,7 @@
 - React.js
 - CSS
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#read-me)
 
 ---
 
@@ -37,7 +36,7 @@
 - Clone the repository -> Go inside the repository, open console and run 'npm i'
 - Run 'npm start' inside the repository.
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#read-me)
 
 
 ---
@@ -48,4 +47,4 @@
 - LinkedIn - [Karl Marten J.](https://linkedin.com/in/karl-marten-jaaska-0646251b3)
 - GitHub - [jaaska-dev](https://github.com/jaaska-dev)
 
-[Back To The Top](#read-me-template)
+[Back To The Top](#read-me)
