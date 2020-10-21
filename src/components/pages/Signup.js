@@ -1,5 +1,6 @@
 import React from 'react';
 import './../../App.css';
+import '../Footer/Footer.css';
 import {Button} from '../Button/Button';
 import {Link} from 'react-router-dom';
 
@@ -37,6 +38,36 @@ const SignUp = () => {
                 </div>
             </div>
         </div>
+        <section className="social-media">
+            <div className="social-media-wrap">
+                <div className="footer-logo">
+                    <Link to='/' className='social-logo'>
+                        by karl <i className="fab fa-redhat"/>
+                    </Link>
+                </div>
+                <small className='website-rights'>@jaaska-dev &copy; 2020</small>
+                <div className="social-icons">
+                    <Link to='/'
+                          target='_blank'
+                          aria-label='GitHub'
+                          className="social-icon-link github">
+                        <i className="fab fa-github"/>
+                    </Link>
+                    <Link to='/'
+                          target='_blank'
+                          aria-label='Twitter'
+                          className="social-icon-link twitter">
+                        <i className="fab fa-twitter"/>
+                    </Link>
+                    <Link to='/'
+                          target='_blank'
+                          aria-label='LinkedIn'
+                          className="social-icon-link linkedin">
+                        <i className="fab fa-linkedin"/>
+                    </Link>
+                </div>
+            </div>
+        </section>
     </div>
 </>
     );

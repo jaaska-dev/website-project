@@ -32,6 +32,11 @@ const Services = () => {
                             <Link to='/'>Terms of Service</Link>
                             <Link to='/'>My Working Process</Link>
                         </div>
+                        <div className="footer-link-items">
+                            <h2>Contact Me</h2>
+                            <Link to='/sign-up'>Contact</Link>
+                            <Link to='/'>Support</Link>
+                        </div>
                     </div>
                 </div>
                 <section className="social-media">
@@ -42,7 +47,7 @@ const Services = () => {
                             </Link>
                         </div>
                         <small className='website-rights'>@jaaska-dev &copy; 2020</small>
-                        <div className="social icons">
+                        <div className="social-icons">
                             <Link to='/'
                                   target='_blank'
                                   aria-label='GitHub'
