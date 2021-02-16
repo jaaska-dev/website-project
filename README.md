@@ -16,7 +16,7 @@
 
 ## Description
 
-- This is a random website made with React.js so I could improve my skill with React.js
+- This is a random website made with React.js with a view on familiarizing myself with the dynamics of React.js and in general getting better wowrking with it.
 - The back-end is currently missing, therefore it's a static webpage without any proper back-end functionality.
 - The logos and pictures used in the website don't belong to me and I don't claim any ownership over them.
 
